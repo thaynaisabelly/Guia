@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+</head>
+<body>
+    
+     <ul>
+        <li data-id="1" data-email="thaynaisabelly66@gmail.com">Thayná Isabelly</li>
+        <li data-id="2" data-email="thayna.isabelly@ufrpe.br@gmail.com">Thayná Silva</li>
+     </ul>
+
+     <script>
+        document.querySelectorAll('li').forEach(liEL => {
+
+            console.log(liEL.dataset);
+            
+        });
+     </script>     
+</body>
+</html>

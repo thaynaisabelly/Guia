@@ -1,0 +1,98 @@
+HTML-Conceitos e Usos
+
+01- Estrutura HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+02- Conceitos/Significados/Usos
+
+*HTML 
+Linguagem de marcação de hipertexto.
+(Hyper texte markup language).
+Texto com marcações que permite linkar outras referências.
+
+*Link
+Ligação ou vínculo entre arquivos.
+
+
+*Tag<></>
+Etiqueta/marcação.
+<tag>texto</tag> (tag com conteúdo).
+<tag/> (tag sem conteúdo).
+
+*Atributos nome="valor"
+Informações alocadas na tag de abertura (<>) que mudam o comportamento da tag.
+<tag atributo="valor">texto</tag>
+<tag atributo="valor"/>
+
+*Atributos Globais
+- accesskey
+Define uma tecla de atalho para focar no elemento.
+
+- class
+Define quais classes CSS serão aplicadas no elemento.
+
+- contenteditable
+Define se o conteúdo do elemento pode ou não ser editável.
+
+- data-*
+Usado para armazena dados em um elemento. No lugar do (*) deve definir um nome.
+
+- dir
+Define a direção do conteúdo do elemento.
+
+- draggable
+Define se o elemento pode ser arrastado ou não.
+
+- dropzone
+Define o que acontece quando o elemento arrastado é solto neste elemento.
+
+- hidden 
+Define o elemento como oculto.
+
+- id
+Define uma identificação única para o elemento.
+
+- lang
+Define a linguagem do conteúdo do elemento.
+
+- spellcheck
+Define se o conteúdo do elemento deve ter sua oortografia verificada.
+
+- style
+Define estilos CSS diretamente no elemento.
+
+- tabindex
+
+Define a posição do elemento na ordem da tabulação da página.
+
+- title
+Define informações sobre o elemento.
+
+- translate
+Define se o conteúdo do elemento pode ser traduzido ouu não.
+
+*Heading
+
+<heading1>CABEÇALHO</heading1> ou <h1>CABEÇALHO</h1> (MAIOR)
+<heading2>CABEÇALHO</heading2> ou <h2>CABEÇALHO</h2>
+<heading3>CABEÇALHO</heading3> ou <h3>CABEÇALHO</h3>
+<heading4>CABEÇALHO</heading4> ou <h4>CABEÇALHO</h4>
+<heading5>CABEÇALHO</heading5> ou <h5>CABEÇALHO</h5>
+<heading6>CABEÇALHO</heading6> ou <h6>CABEÇALHO</h6> (MENOR)
+
+*Paragraph
+
+<paragraph>Parágrafo</paragraph> ou <p></p>
+
+*
